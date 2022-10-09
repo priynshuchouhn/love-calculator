@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+:root{
+    --primary-color: rgb(147, 125, 194);
+    --secondary-color: rgb(198, 137, 198);
+    --text-color: rgb(255, 171, 225);
+    --secondary-text-color: rgb(255, 230, 247);
+}
+body{
+    background-color: var(--primary-color);
+}
+.logo-text{
+    color: var(--secondary-text-color);
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
+}
+.label-text{
+    color: var(--text-color);
+    padding-bottom: 12px;
+    font-weight: bolder;
+}
+.btn{
+    color: var(--primary-color);
+    background-color: var(--text-color);
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: white;
+}

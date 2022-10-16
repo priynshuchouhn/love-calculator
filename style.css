@@ -28,3 +28,13 @@ body{
     background-color: var(--secondary-color);
     color: white;
 }
+.hidden{
+display: none;
+}
+
+.inner-container{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: var(--secondary-text-color);
+}
